@@ -1,0 +1,26 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  h1{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: brown;
+  }
+  body{
+    background-color:aliceblue;
+  }
+  header{
+    background-color: powderblue;
+    
+  }
+  img
+{
+Padding: 50px,50px,50px,50px; 
+background-color: whitesmoke;
+}
+div{
+    background-color: white;
+}
