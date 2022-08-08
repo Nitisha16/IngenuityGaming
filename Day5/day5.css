@@ -1,0 +1,101 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sky {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+}
+
+.highway
+{
+    background-image: url("highway.jpg");
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 0px;
+    width: 300%;
+    height: 10vh;
+    animation: trackanimation 10s linear infinite;
+}
+
+.city
+{
+    height: 90vh;
+    background-image: url("city.png");
+    background-repeat:repeat-x;
+    position: relative;
+    width: 300%;
+    bottom:0px;
+    z-index: 1;
+    background-size: cover;
+    animation: trackanimation 10s linear infinite;
+}
+
+.car {
+    background-image: url("car.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 17rem;
+    height: 4.699rem;
+    position: absolute;
+    bottom: 77px;
+    left: 396px;
+    z-index: 2;
+    animation: caranimation 2s linear infinite;
+}
+.wheel1 {
+    background-image: url("wheel.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 52px;
+    left: 590px;
+    z-index: 2;
+    animation: wheelanimation .6s linear  infinite;
+}
+.wheel2 {
+    background-image: url("wheel.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 52px;
+    left: 425px;
+    z-index: 2;
+    animation: wheelanimation .6s linear infinite;
+}
+
+/* Rotation of the wheels */
+@keyframes wheelanimation{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Moving the track backwards */
+@keyframes trackanimation {
+    100% {
+        transform: translate(-200vw);
+    }
+}
+@keyframes caranimation {
+    0% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
