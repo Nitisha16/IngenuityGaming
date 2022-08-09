@@ -43,3 +43,6 @@ h1{text-align: left;
     margin-bottom: 10px;
 
 }
+.container img1{
+  background-size: cover;
+}
