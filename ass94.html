@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <script>
+        function check(inp)
+        {
+            if(inp.substring(0,4)=="New!")
+        {
+            document.write('<h1 style="text-align:center; color:chocolate;">'+inp+'</h1>');
+        }
+        else
+        {
+            var temp=inp;
+            inp="New! "+temp;
+            document.write('<h1 style="text-align:center; color:chocolate;">'+inp+'</h1>');
+        }
+        }
+        var inp=prompt("Enter String :");
+        check(inp);
+    </script>
+
+</body>
+</html>
