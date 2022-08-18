@@ -1,0 +1,48 @@
+
+  /* Style the button and place it in the middle of the container/image */
+  *{
+    margin: 0%;
+    padding: 0%;
+    line-height: 25px;
+    font-size: 20dp;
+  }
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 25px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+
+  .bg {
+    height: 50%;
+}
+h1{text-align: left;
+}
+.p1{
+    text-align:justify;
+    background-color: chocolate;
+    font-size: 20px;
+}
+.p2{
+    text-align:justify;
+    background-color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.container img1{
+  background-size: cover;
+}
