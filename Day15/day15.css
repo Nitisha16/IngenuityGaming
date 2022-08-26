@@ -7,7 +7,7 @@
 .container
 {
     height: 100vh;
-    background-image:url("/Day9/de-an-sun--o0A00pF8P0-unsplash\ \(1\).jpg");
+    background-image:url("https://img.freepik.com/free-vector/clean-medical-background_53876-116877.jpg?w=1380&t=st=1661488150~exp=1661488750~hmac=371c67cdfd04eab007bbf0d7edae886214931d0c8d8f2adef9b56a5e915468b7");
     display:flex;
     background-size: auto;
     align-items:center;
@@ -17,10 +17,10 @@
 }
 
 .entry{
-    height: 80%;
-    width: 70%;
-    background-color: #fff;
-    background-color: rgba(14, 15, 15, 0.568);
+    height: 50%;
+    width: 50%;
+    background-color: rgb(68, 8, 8);
+    background-color: rgba(14, 14, 15, 0.568); 
     border-radius: 20px;
     align-items: center;
     display: flex;
@@ -29,7 +29,7 @@
 }
 #header{
     margin: 25px;
-    color:rgb(0, 0, 0);
+    color:rgb(19, 22, 231);
     font-family:'Courier New', Courier, monospace;
 }
 #forme{
